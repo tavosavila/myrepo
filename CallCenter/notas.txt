@@ -1,0 +1,1 @@
+mvn archetype:generate -DgroupId=com.almundo -DartifactId=CallCenter-DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
