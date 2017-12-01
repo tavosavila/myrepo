@@ -17,10 +17,6 @@ public class Dispatcher {
 	
 	Semaphore employees = new Semaphore(MAX_EMPLOYEES);
 	
-	Stadistic stadistic = new Stadistic ();
-
-	private int callLost =0;
-	
 	public Dispatcher() {
 
 		employeeOperator=new EmployeeOperador();
@@ -50,12 +46,7 @@ public class Dispatcher {
 			
 			employeeDirector.pickUp(customer);	
 		} 
-		else {
-			
-			callLost ++;
-			stadistic.setCallLost(callLost );
-			
-		}
+		
 		
 		
 	}
@@ -92,14 +83,6 @@ public class Dispatcher {
 		this.employeeSupervisor = employeeSupervisor;
 	}
 
-	public Stadistic getStadistic() {
-		return stadistic;
-	}
-
-	public void setStadistic(Stadistic stadistic) {
-		this.stadistic = stadistic;
-	}
-	
 	
 
 }
