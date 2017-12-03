@@ -1774,3 +1774,110 @@ INFO    2017-12-01 11:25:12,573 [nombre 8] com.almundo.callcenter.employee.Emplo
 INFO    2017-12-01 11:25:12,574 [nombre 8] com.almundo.callcenter.Call  - [ Llamada nombre 8] fue atendida ...
 INFO    2017-12-01 11:25:16,560 [nombre 10] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 10 duracion de llamada [6 Seg.]
 INFO    2017-12-01 11:25:16,560 [nombre 10] com.almundo.callcenter.Call  - [ Llamada nombre 10] fue atendida ...
+INFO    2017-12-01 15:28:02,533 [main] com.almundo.callcenter.CallCenter  - The call center esta listo para atender llamados :10
+INFO    2017-12-01 15:28:02,552 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 1
+INFO    2017-12-01 15:28:06,553 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 2
+INFO    2017-12-01 15:28:07,553 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 1 duracion de llamada [5 Seg.]
+INFO    2017-12-01 15:28:07,553 [nombre 1] com.almundo.callcenter.Call  - [ Llamada nombre 1] fue atendida ...
+INFO    2017-12-01 15:28:08,553 [nombre 3] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 3
+INFO    2017-12-01 15:28:09,554 [nombre 4] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 4
+INFO    2017-12-01 15:28:11,554 [nombre 5] com.almundo.callcenter.Call  - [ Llamada nombre 5] tiene que espera 
+INFO    2017-12-01 15:28:13,554 [nombre 6] com.almundo.callcenter.Call  - [ Llamada nombre 6] tiene que espera 
+INFO    2017-12-01 15:28:13,555 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 2 duracion de llamada [7 Seg.]
+INFO    2017-12-01 15:28:13,556 [nombre 2] com.almundo.callcenter.Call  - [ Llamada nombre 2] fue atendida ...
+INFO    2017-12-01 15:28:13,556 [nombre 3] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 3 duracion de llamada [5 Seg.]
+INFO    2017-12-01 15:28:13,557 [nombre 3] com.almundo.callcenter.Call  - [ Llamada nombre 3] fue atendida ...
+INFO    2017-12-01 15:28:13,557 [nombre 5] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 5
+INFO    2017-12-01 15:28:13,558 [nombre 6] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 6
+INFO    2017-12-01 15:28:14,554 [nombre 7] com.almundo.callcenter.Call  - [ Llamada nombre 7] tiene que espera 
+INFO    2017-12-01 15:28:16,557 [nombre 4] com.almundo.callcenter.employee.Employee  - [ Director] finaliza nombre 4 duracion de llamada [7 Seg.]
+INFO    2017-12-01 15:28:16,558 [nombre 4] com.almundo.callcenter.Call  - [ Llamada nombre 4] fue atendida ...
+INFO    2017-12-01 15:28:16,559 [nombre 7] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 7
+INFO    2017-12-01 15:28:18,555 [nombre 8] com.almundo.callcenter.Call  - [ Llamada nombre 8] tiene que espera 
+INFO    2017-12-01 15:28:19,559 [nombre 5] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 5 duracion de llamada [6 Seg.]
+INFO    2017-12-01 15:28:19,562 [nombre 5] com.almundo.callcenter.Call  - [ Llamada nombre 5] fue atendida ...
+INFO    2017-12-01 15:28:19,562 [nombre 8] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 8
+INFO    2017-12-01 15:28:20,560 [nombre 6] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 6 duracion de llamada [7 Seg.]
+INFO    2017-12-01 15:28:20,560 [nombre 6] com.almundo.callcenter.Call  - [ Llamada nombre 6] fue atendida ...
+INFO    2017-12-01 15:28:22,556 [nombre 9] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 9
+INFO    2017-12-01 15:28:22,560 [nombre 7] com.almundo.callcenter.employee.Employee  - [ Director] finaliza nombre 7 duracion de llamada [6 Seg.]
+INFO    2017-12-01 15:28:22,560 [nombre 7] com.almundo.callcenter.Call  - [ Llamada nombre 7] fue atendida ...
+INFO    2017-12-01 15:28:25,557 [nombre 10] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 10
+INFO    2017-12-01 15:28:25,565 [nombre 8] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 8 duracion de llamada [6 Seg.]
+INFO    2017-12-01 15:28:25,566 [nombre 8] com.almundo.callcenter.Call  - [ Llamada nombre 8] fue atendida ...
+INFO    2017-12-01 15:28:30,559 [nombre 9] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 9 duracion de llamada [8 Seg.]
+INFO    2017-12-01 15:28:30,559 [nombre 9] com.almundo.callcenter.Call  - [ Llamada nombre 9] fue atendida ...
+INFO    2017-12-01 15:28:30,559 [nombre 10] com.almundo.callcenter.employee.Employee  - [ Director] finaliza nombre 10 duracion de llamada [5 Seg.]
+INFO    2017-12-01 15:28:30,559 [nombre 10] com.almundo.callcenter.Call  - [ Llamada nombre 10] fue atendida ...
+INFO    2017-12-01 17:44:39,007 [main] com.almundo.callcenter.CallCenter  - The call center esta listo para atender llamados :10
+INFO    2017-12-01 17:44:39,010 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 1
+INFO    2017-12-01 17:44:42,013 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 2
+INFO    2017-12-01 17:46:00,764 [main] com.almundo.callcenter.CallCenter  - The call center esta listo para atender llamados :10
+INFO    2017-12-01 17:46:00,768 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 1
+INFO    2017-12-01 17:46:01,767 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 2
+INFO    2017-12-01 17:46:02,768 [nombre 3] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 3
+INFO    2017-12-01 17:46:05,769 [nombre 4] com.almundo.callcenter.Call  - [ Llamada nombre 4] tiene que espera 
+INFO    2017-12-01 17:46:07,771 [nombre 3] com.almundo.callcenter.employee.Employee  - [ Director] finaliza nombre 3 duracion de llamada [5 Seg.]
+INFO    2017-12-01 17:46:07,771 [nombre 3] com.almundo.callcenter.Call  - [ Llamada nombre 3] fue atendida ...
+INFO    2017-12-01 17:46:07,772 [nombre 4] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 4
+INFO    2017-12-01 17:46:08,771 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 1 duracion de llamada [8 Seg.]
+INFO    2017-12-01 17:46:08,772 [nombre 1] com.almundo.callcenter.Call  - [ Llamada nombre 1] fue atendida ...
+INFO    2017-12-01 17:46:09,771 [nombre 5] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 5
+INFO    2017-12-01 17:46:09,772 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 2 duracion de llamada [8 Seg.]
+INFO    2017-12-01 17:46:09,773 [nombre 2] com.almundo.callcenter.Call  - [ Llamada nombre 2] fue atendida ...
+INFO    2017-12-01 17:46:11,772 [nombre 6] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 6
+INFO    2017-12-01 17:46:15,775 [nombre 5] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 5 duracion de llamada [6 Seg.]
+INFO    2017-12-01 17:46:15,777 [nombre 5] com.almundo.callcenter.Call  - [ Llamada nombre 5] fue atendida ...
+INFO    2017-12-01 17:46:15,776 [nombre 7] com.almundo.callcenter.Call  - [ Llamada nombre 7] tiene que espera 
+INFO    2017-12-01 17:46:15,783 [nombre 7] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 7
+INFO    2017-12-01 17:46:15,784 [nombre 4] com.almundo.callcenter.employee.Employee  - [ Director] finaliza nombre 4 duracion de llamada [8 Seg.]
+INFO    2017-12-01 17:46:15,784 [nombre 4] com.almundo.callcenter.Call  - [ Llamada nombre 4] fue atendida ...
+INFO    2017-12-01 17:46:17,782 [nombre 6] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 6 duracion de llamada [6 Seg.]
+INFO    2017-12-01 17:46:17,783 [nombre 6] com.almundo.callcenter.Call  - [ Llamada nombre 6] fue atendida ...
+INFO    2017-12-01 17:46:17,802 [nombre 8] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 8
+INFO    2017-12-01 17:46:19,785 [nombre 9] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 9
+INFO    2017-12-01 17:46:20,785 [nombre 7] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 7 duracion de llamada [5 Seg.]
+INFO    2017-12-01 17:46:20,785 [nombre 7] com.almundo.callcenter.Call  - [ Llamada nombre 7] fue atendida ...
+INFO    2017-12-01 17:46:23,787 [nombre 10] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 10
+INFO    2017-12-01 17:46:24,806 [nombre 8] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 8 duracion de llamada [7 Seg.]
+INFO    2017-12-01 17:46:24,807 [nombre 8] com.almundo.callcenter.Call  - [ Llamada nombre 8] fue atendida ...
+INFO    2017-12-01 17:46:27,789 [nombre 9] com.almundo.callcenter.employee.Employee  - [ Director] finaliza nombre 9 duracion de llamada [8 Seg.]
+INFO    2017-12-01 17:46:27,790 [nombre 9] com.almundo.callcenter.Call  - [ Llamada nombre 9] fue atendida ...
+INFO    2017-12-01 17:46:32,792 [nombre 10] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza nombre 10 duracion de llamada [9 Seg.]
+INFO    2017-12-01 17:46:32,793 [nombre 10] com.almundo.callcenter.Call  - [ Llamada nombre 10] fue atendida ...
+INFO    2017-12-01 17:47:47,258 [main] com.almundo.callcenter.CallCenter  - The call center esta listo para atender llamados :10
+INFO    2017-12-01 17:47:47,261 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 1
+INFO    2017-12-01 17:47:48,261 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 2
+INFO    2017-12-01 21:48:00,736 [main] com.almundo.callcenter.CallCenter  - The call center esta listo para atender llamados :10
+INFO    2017-12-01 21:48:00,740 [nombre 1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada nombre 1
+INFO    2017-12-01 21:48:01,741 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] atiende llamada nombre 2
+INFO    2017-12-01 21:48:05,741 [nombre 3] com.almundo.callcenter.employee.Employee  - [ Director] atiende llamada nombre 3
+INFO    2017-12-01 21:48:06,742 [nombre 2] com.almundo.callcenter.employee.Employee  - [ Supervisor] finaliza nombre 2 duracion de llamada [5 Seg.]
+INFO    2017-12-01 21:48:06,743 [nombre 2] com.almundo.callcenter.Call  - [ Llamada nombre 2] fue atendida ...
+INFO    2017-12-01 21:48:22,457 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 21:48:29,460 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [7 Seg.]
+INFO    2017-12-01 21:48:29,461 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
+INFO    2017-12-01 21:49:26,877 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 21:50:03,159 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 21:53:38,726 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 23:01:16,465 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 23:02:04,542 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 23:02:10,562 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [6 Seg.]
+INFO    2017-12-01 23:02:17,072 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
+INFO    2017-12-01 23:06:09,736 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 23:06:15,740 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [6 Seg.]
+INFO    2017-12-01 23:06:15,740 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
+INFO    2017-12-01 23:06:44,115 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-01 23:06:51,128 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [7 Seg.]
+INFO    2017-12-01 23:06:51,129 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
+INFO    2017-12-02 18:14:21,554 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-02 18:24:50,902 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-02 18:25:10,838 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-02 18:25:15,842 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [5 Seg.]
+INFO    2017-12-02 18:25:15,845 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
+INFO    2017-12-03 18:25:17,651 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-03 18:25:23,657 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [6 Seg.]
+INFO    2017-12-03 18:25:23,662 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
+INFO    2017-12-03 18:28:41,835 [1] com.almundo.callcenter.employee.Employee  - [ Operador] atiende llamada 1
+INFO    2017-12-03 18:28:50,845 [1] com.almundo.callcenter.employee.Employee  - [ Operador] finaliza 1 duracion de llamada [9 Seg.]
+INFO    2017-12-03 18:28:50,845 [1] com.almundo.callcenter.Call  - [ Llamada 1] fue atendida ...
