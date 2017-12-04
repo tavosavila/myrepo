@@ -2,6 +2,7 @@ package com.almundo.callcenter;
 
 import java.util.concurrent.Semaphore;
 
+import com.almundo.callcenter.employee.Employee;
 import com.almundo.callcenter.employee.EmployeeDirector;
 import com.almundo.callcenter.employee.EmployeeOperador;
 import com.almundo.callcenter.employee.EmployeeSupervisor;
@@ -9,12 +10,14 @@ import com.almundo.callcenter.employee.EmployeeSupervisor;
 public class Dispatcher {
 	
 	private final int MAX_EMPLOYEES = 3;
+
+	protected final int MAX_WAIT = 10;
 	
-	private EmployeeDirector employeeDirector;
-	private EmployeeOperador employeeOperator;
-	private EmployeeSupervisor  employeeSupervisor;
+	private Employee employeeDirector;
+	private Employee employeeOperator;
+	private Employee  employeeSupervisor;
 	
-	Semaphore employees = new Semaphore(MAX_EMPLOYEES);
+	private Semaphore employees = new Semaphore(MAX_EMPLOYEES);
 	
 	private int countDirector = 0;
 	private int countSupervisor = 0;
@@ -29,26 +32,26 @@ public class Dispatcher {
 		
 		employeeSupervisor= new EmployeeSupervisor();	
 	
-	
+		
 	}
 	
-	public void dispatchCall (Call customer){
+	public  void dispatchCall (Call customer){
 		
 		if (!employeeOperator.isAtendiendo()) {
 			
 			employeeOperator.pickUp(customer);
-			countOperador ++;
+			this.countOperador ++;
 			
 		} 
 		else if (!employeeSupervisor.isAtendiendo()) {
 			
 			employeeSupervisor.pickUp(customer);	
-			countSupervisor ++;
+			this.countSupervisor ++;
 			
 		}else if (!employeeDirector.isAtendiendo()) {
 			
 			employeeDirector.pickUp(customer);	
-			countDirector ++;
+			this.countDirector ++;
 		} 
 		
 		

@@ -6,12 +6,8 @@ public class Call extends Thread {
  
 	final static Logger logger = Logger.getLogger(Call.class);
 	
-
-    private Dispatcher disp;
+	private Dispatcher disp;
  
-    public Call() {
-		// TODO Auto-generated constructor stub
-	}
     
     public Call(String nombre ,Dispatcher disp) {
        
@@ -31,21 +27,14 @@ public class Call extends Thread {
  
         try {
  
-      //      System.out.println("[ Llamada "+getName() +"]" + " ingresa al dispatcher");
-            
-            
-            if ( disp.getOperators().getQueueLength() < 10) {
+            if ( disp.getOperators().getQueueLength() < disp.MAX_WAIT) {
             	
             	if (disp.getOperators().availablePermits()==0)
                    logger.info("[ Llamada "+getName() +"]"  +" tiene que espera ");
           		
             	
             	disp.getOperators().acquire();
-            	 
-            //    System.out.println(getName() + " siendo atendido por dispatcher ...");
-                            //using TimeUnit enumeration to make the code more readable
-                
-                disp.dispatchCall(this);
+               disp.dispatchCall(this);
                 
                 logger.info("[ Llamada "+getName() +"] fue atendida ...");
                 
@@ -56,9 +45,8 @@ public class Call extends Thread {
                 
             }
                         
-           // System.out.println("Available operators="+ operators.availablePermits());
              
-        } catch (InterruptedException /*| BrokenBarrierException*/ e) {
+        } catch (InterruptedException  e) {
             System.err.println(e);
         } 
  
